@@ -10,13 +10,13 @@
 
       <a-camera gps-camera rotation-reader></a-camera>
 
-      <!-- Stop 1
+      <!-- Stop 1 -->
       <a-text
         value="Welcome to LHS!"
         scale="12 12 12"
         color="yellow"
         gps-entity-place="latitude: 39.27992; longitude: -84.27519;"
-      ></a-text> -->
+      ></a-text> 
 
       <!-- Load the Blender file -->
 		<a-assets>
@@ -24,7 +24,7 @@
 		</a-assets>
 		
 		<!-- Display file -->
-		<a-entity gltf-model="#myModel"></a-entity>
+		<a-entity gltf-model="#myModel" gps-entity-place="latitude: 39.27959; longitude: -84.27571;"></a-entity>
     </a-scene>
   </body>
 </html>
